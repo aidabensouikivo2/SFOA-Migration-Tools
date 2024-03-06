@@ -1,5 +1,5 @@
 # SFOA-Migration-Tools
-Tools to facilitate metadata/data migration between  Salesforce organizations
+javascript tools to facilitate metadata/data migration between  Salesforce organizations
 
 ## 1- Generate Package.xml file tool:
 
