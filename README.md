@@ -21,6 +21,7 @@ Dependencies installed using npm. Run npm install in the project directory to in
 
 ### Usage
 1)- Clone this repository to your local machine.
+
 2)- Prepare your metadata in an Excel spreadsheet named allMetadata.xlsx. The spreadsheet should contain the following columns:
 
 - Name: The name of the metadata component.
@@ -28,8 +29,9 @@ Dependencies installed using npm. Run npm install in the project directory to in
 - SFOA Status: Indicates whether the metadata component is "In Scope" or "Out Of Scope".
 
 3)- Ensure that all metadata entries of the same type are grouped together in the Excel spreadsheet (allMetadata.xlsx) before running the tool. Avoid mixing metadata types.
+
 4)- Run the script using the command node generatePackageXmlFile.js.
+
 5)- Follow the prompts to provide the path to the allMetadata.xlsx file.
 
-The script ensures that metadata entries of the same type are grouped together in the generated package.xml, avoiding repetition of the same metadata type.
 The generated package.xml file is created in the same directory as allMetadata.xlsx and can be used with Salesforce Metadata API for deployment.
